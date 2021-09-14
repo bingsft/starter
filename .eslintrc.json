@@ -1,0 +1,24 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "google"
+    ],
+    "plugins": [
+        "@typescript-eslint",
+        "unicorn"
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "unicorn/filename-case": [
+            "error",
+            {
+                "case": "camelCase"
+            }
+        ]
+    }
+}
