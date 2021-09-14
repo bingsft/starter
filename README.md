@@ -3,7 +3,7 @@
 Successul typescript project starts here.
 
 ```shell
-$ git clone -n git@github.com:bingsft/starter.git your-project-dir-name
+$ git clone git@github.com:bingsft/starter.git your-project-dir-name
 $ cd your-project-dir-name
 $ yarn
 $ yarn husky install
